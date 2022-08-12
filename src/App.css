@@ -1,38 +1,320 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Manrope';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.display-flex {
   display: flex;
-  flex-direction: column;
+}
+
+#title {
+  color:rgb(95, 91, 91)
+}
+
+#initial-text {
+    margin: 0px;
+    font-weight: 500;
+    color: rgb(98, 106, 106);
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+
+.info-button {
+  height: 30px;
+  width: 90px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: smaller;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.image {
+  border-radius: 5px;
+}
+
+.text-container p{
+  color:gray;
+
+}
+
+.text-container{
+  color:rgb(95, 91, 91)
+
+}
+
+.circle {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid orange;
+  border-radius: 50%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.circle-text {
+  padding-left: 17px;
+  padding-top: 12px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.foundation {
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+  color: rgb(79, 88, 88);
+  font-weight: 700;
+  padding-top: 10px;
+  float: left;
+}
+
+#donate-button {
+  width:100px;
+  height:40px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  float: right;
+
+
+}
+
+#follow-link {
+  float: right;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.0338em;
+  font-weight: 700;
+  margin-left: 7px;
+  margin-top: 23px;
+  background-color: white;
+  border: none;
+}
+
+.skill-header {
+    color: rgb(98, 106, 106);
+    font-family: Manrope, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    font-weight: 700;
+}
+
+.skill-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+}
+
+.weighted-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: rgb(79, 88, 88);
+  font-weight: 700;
+}
+
+#school-name {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 710px;
+  height: 20px;
+  margin: auto;
+}
+
+#share-btn {
+    font-size: 1rem;
+    background-color: transparent;
+    color: rgb(4, 154, 173);
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    float: right;
+    margin-right: 7px;
+}
+
+.example-thumb {
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  background: #ffffff;
+  border: 5px solid #a5480d;
+  border-radius: 100%;
+  display: block;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+
+.example-thumb.active {
+  background-color: rgb(157, 87, 50);
+}
+
+.example-track {
+  position: relative;
+  background: rgb(220, 165, 165);
+}
+
+.example-track.example-track-0 {
+  background: #943009;
+}
+
+.horizontal-slider .example-track {
+  top: 12px;
+  height: 10px;
+}
+
+.horizontal-slider .example-thumb {
+  top: 12px;
+  width: 10px;
+  outline: none;
+  height: 10px;
+  line-height: 38px;
+}
+
+#footer-text {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  font-weight: 700;
+}
+
+.bottom-circle {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #17a2b8;
+}
+
+.bottom-circle-text {
+  margin-left: 12px;
+  margin-top: 12px;
+  font-size: 17px;
+}
+
+#volunteer-btn {
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  width: 140px;
+  float: right;
+  font-weight: 600;
+  letter-spacing: 0.02857em;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-div {
+    margin-right: 0;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  .bottom-circle {
+    min-width: 45px;
+  }
+  #footer-text {
+    text-align: center;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .foundation-div {
+    max-height: 60px;
+  }
+  .circle {
+    min-width: 60px;
+  }
+  .new-col {
+    padding-right: 0;
+  }
+  .foundation {
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .new-col {
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  #donate-button {
+    clear: both;
+    margin-right: -10px;
+  }
+  #follow-link {
+    clear: both;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  .foundation-div {
+    padding: 0;
+    display: flex;
+    position: relative;
+  }
+  .foundation {
+    clear: both;
+  }
+  .circle {
+    clear: both;
+  }
+  .modal-dialog {
+    margin: 0;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #comm_skill-div {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .modal-dialog {
+  margin-top: 50px;
+}
+}
+
+.modal-body {
+  padding: 5px;
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+  .modal-dialog {
+    margin: 30px;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .skill-btn {
+    margin-top:2px;
+  }
+}
+
+
+
