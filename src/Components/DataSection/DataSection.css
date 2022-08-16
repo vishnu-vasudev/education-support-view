@@ -1,0 +1,42 @@
+.skill-header {
+    color: rgb(98, 106, 106);
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    font-weight: 700;
+}
+
+.skill-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+}
+
+.weighted-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: rgb(79, 88, 88);
+  font-weight: 700;
+}
+
+.school-name {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+@media screen and (max-width: 991px) {
+    .comm_skill-div {
+      margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .skill-btn {
+      margin-top:2px;
+    }
+}

@@ -2,9 +2,6 @@ import React from 'react'
 
 const SharePage = () => (
     <>
-        <center>
-            <h1>Share to:</h1><hr />
-        </center>
         <a
             href="https://www.facebook.com/"
         >

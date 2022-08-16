@@ -1,0 +1,88 @@
+.circle {
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 50%;
+    align-items: center;
+}
+  
+.circle-text {
+    padding-left: 17px;
+    padding-top: 12px;
+    
+}
+  
+.foundation {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: 0.00938em;
+    color: rgb(79, 88, 88);
+    font-weight: 700;
+    padding-top: 10px;
+    float: left;
+}
+  
+.donate-button {
+    width:100px;
+    height:40px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    float: right;
+}
+  
+.follow-link {
+    float: right;
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: 0.0338em;
+    font-weight: 700;
+    margin-left: 7px;
+    margin-top: 23px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+@media screen and (max-width: 450px) {
+    .foundation-div {
+      max-height: 60px;
+    }
+    .circle {
+      min-width: 60px;
+    }
+    .new-col {
+      padding-right: 0;
+    }
+    .foundation {
+      margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .new-col {
+      margin-top: -80px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-end;
+    }
+    .donate-button {
+      clear: both;
+      margin-right: -10px;
+    }
+    .follow-link {
+      clear: both;
+      margin-top: 5px;
+      margin-right: 10px;
+    }
+    .foundation-div {
+      padding: 0;
+      display: flex;
+    }
+}
+

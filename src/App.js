@@ -1,23 +1,17 @@
 import './App.css';
-import Modal from './Components/Modal'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import SharePage from './SharePage';
+import PageDisplay from './Components/PageDisplay/PageDisplay'
+import StringsProvider from './StringsProvider/StringsProvider';
 
 
 function App() {
 
   return (
-    
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Modal />
-        </Route>
-        <Route path="/share">
-          <SharePage />
-        </Route>
-      </Switch>
-    </Router>
+
+    <StringsProvider>
+
+      <PageDisplay />
+
+    </StringsProvider>
 
   );
 }

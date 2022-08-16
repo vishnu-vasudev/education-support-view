@@ -1,7 +1,8 @@
 import React from 'react'
-import DataSection from './DataSection'
-import FoundationSection from './FoundationSection'
-import SliderComponent from './SliderComponent'
+import './DataComponent.css'
+import DataSection from '../DataSection/DataSection'
+import FoundationSection from '../FoundationSection/FoundationSection'
+import SliderComponent from '../SliderComponent/SliderComponent'
 
 const DataComponent = () => {
 
@@ -10,7 +11,7 @@ const DataComponent = () => {
         <div className='text-container'>
 
             <section>
-                <p id='initial-text'>
+                <p className='initial-text'>
                     Support education by teaching kidsSupport education by teaching kidsSupport education by teaching kidsSupport education by teaching kids
                 </p>
             </section><hr />

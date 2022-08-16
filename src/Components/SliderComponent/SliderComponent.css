@@ -1,0 +1,66 @@
+.horizontal-slider {
+    width: 100%;
+    max-width: 710px;
+    height: 20px;
+    margin: auto;
+}
+
+.example-thumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background: rgb(255, 255, 255);
+    border: 5px solid rgb(153, 68, 28);
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+  
+.example-thumb.active {
+    background-color: rgb(157, 87, 50);
+}
+  
+.example-track {
+    position: relative;
+    background: rgb(220, 165, 165);
+}
+  
+.example-track.example-track-0 {
+    background: rgb(148, 48, 9);
+}
+  
+.horizontal-slider .example-track {
+    top: 12px;
+    height: 10px;
+}
+  
+.horizontal-slider .example-thumb {
+    top: 12px;
+    width: 10px;
+    outline: none;
+    height: 10px;
+    line-height: 38px;
+}
+
+.share-btn {
+    font-size: 1rem;
+    background-color: transparent;
+    color: rgb(4, 154, 173);
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    float: right;
+    margin-right: 7px;
+}
+
+.volunteer-btn {
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 140px;
+    float: right;
+    font-weight: 600;
+    letter-spacing: 0.02857em;
+}
