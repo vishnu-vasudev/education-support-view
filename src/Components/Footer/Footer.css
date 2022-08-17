@@ -1,5 +1,15 @@
+.footer-first-text {
+    color: var(--info);
+    margin-top: 1em;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.06071em;
+    font-weight: 700;
+}
+
 .footer-text {
-    margin-top: 10px;
+    color: var(--darkgrey);
+    margin-top: 3%;
     font-size: 0.875rem;
     line-height: 1.43;
     letter-spacing: 0.01071em;
@@ -8,32 +18,39 @@
   
 .bottom-circle {
     display: flex;
-    width: 45px;
-    height: 45px;
+    width: 2.9em;
+    height: 2.9em;
     border-radius: 50%;
     text-align: center;
-    background-color: rgb(23, 162, 184);
+    background-color: var(--info);
 }
   
 .bottom-circle-text {
-    margin-left: 12px;
-    margin-top: 12px;
-    font-size: 17px;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    font-size: 1.1rem;
 }
   
 .footer-div {
     display: flex;
     flex-direction: row;
-    margin-right: 25%;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 991px) and (min-width: 442px) {
+  .footer-first-text {
+    min-width: 17em;
+  }
 }
   
 @media screen and (max-width: 600px) {
     .footer-div {
-      margin-right: 0;
+      margin-right: auto;
+      margin-left: 0;
       align-items: center;
     }
     .bottom-circle {
-      min-width: 45px;
+      min-width: 2.8em;
     }
     .footer-text {
       text-align: center;

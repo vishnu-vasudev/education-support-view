@@ -9,24 +9,24 @@
     cursor: pointer;
     position: absolute;
     z-index: 100;
-    background: rgb(255, 255, 255);
-    border: 5px solid rgb(153, 68, 28);
+    background: white;
+    border: 5px solid var(--orange);
     border-radius: 100%;
     display: block;
     box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
 }
   
 .example-thumb.active {
-    background-color: rgb(157, 87, 50);
+    background-color: var(--lightorange);
 }
   
 .example-track {
     position: relative;
-    background: rgb(220, 165, 165);
+    background: var(--lightpink);
 }
   
 .example-track.example-track-0 {
-    background: rgb(148, 48, 9);
+    background: var(--darkorange);
 }
   
 .horizontal-slider .example-track {
@@ -35,31 +35,32 @@
 }
   
 .horizontal-slider .example-thumb {
-    top: 12px;
-    width: 10px;
+    top: 0.75em;
+    width: 0.625em;
     outline: none;
-    height: 10px;
-    line-height: 38px;
+    height: 0.625em;
+    line-height: 2.375em;
 }
 
 .share-btn {
     font-size: 1rem;
     background-color: transparent;
-    color: rgb(4, 154, 173);
-    padding: 4px 8px;
+    color: var(--info);
+    padding: 0.25em 0.5em;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     float: right;
-    margin-right: 7px;
+    margin-right: 0.4em;
 }
 
 .volunteer-btn {
+    background-color: var(--info);
     border-radius: 20px;
     border: none;
-    height: 40px;
-    width: 140px;
+    height: 2.5em;
+    width: 8.75em;
     float: right;
     font-weight: 600;
     letter-spacing: 0.02857em;

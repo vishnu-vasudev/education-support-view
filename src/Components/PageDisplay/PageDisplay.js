@@ -25,11 +25,7 @@ const PageDisplay = (args) => {
 
     const toggle = () => setModal(!modal);
 
-    const closeBtn = (
-        <button className="close" onClick={toggle} type="button">
-            &times;
-        </button>
-    );
+    
 
     return (
         <><Container><br />
@@ -40,7 +36,7 @@ const PageDisplay = (args) => {
             </center>
 
             <Modal size='xl' isOpen={modal} toggle={toggle} {...args}>
-                <ModalHeader toggle={toggle} close={closeBtn}>
+                <ModalHeader toggle={toggle}>
                     <h4 className="modal-title">Support education by teaching kids</h4>
                 </ModalHeader>
                 <ModalBody>

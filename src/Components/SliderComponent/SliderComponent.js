@@ -43,10 +43,10 @@ const SliderComponent = () => {
                         <p className='skill-header'>Support education by teaching kids</p>
                     </Col>
                     <Col lg>
-                        <button className='btn-info volunteer-btn'>Volunteer Now</button>
-                        <button className='share-btn' color="success" onClick={toggleNested}>
+                        <Button className='volunteer-btn'>Volunteer Now</Button>
+                        <Button className='share-btn' color="success" onClick={toggleNested}>
                             Share
-                        </button>
+                        </Button>
                         <Modal
                             isOpen={nestedModal}
                             toggle={toggleNested}

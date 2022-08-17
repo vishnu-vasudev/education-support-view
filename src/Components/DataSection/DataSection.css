@@ -1,5 +1,5 @@
 .skill-header {
-    color: rgb(98, 106, 106);
+    color: var(--grey);
     font-size: 0.875rem;
     line-height: 1.43;
     letter-spacing: 0.01071em;
@@ -8,6 +8,8 @@
 
 .skill-btn {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--buttonface);
+  color: black;
   font-size: smaller;
   border-radius: 20px;
   border: none;
@@ -18,11 +20,12 @@
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0.00938em;
-  color: rgb(79, 88, 88);
+  color: var(--darkgrey);
   font-weight: 700;
 }
 
 .school-name {
+    color: var(--info);
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
@@ -30,13 +33,13 @@
 }
 
 @media screen and (max-width: 991px) {
-    .comm_skill-div {
-      margin-top: 10px;
+    .goodtohaveskill-div {
+      margin-top: 0.7em;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .skill-btn {
-      margin-top:2px;
+      margin-top: 0.3em;
     }
 }
