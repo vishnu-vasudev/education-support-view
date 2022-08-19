@@ -10,6 +10,7 @@ import {
     ModalHeader,
     ModalFooter,
 } from "reactstrap";
+import { Typography } from '@mui/material';
 
 import ImageComponent from "../ImageComponent/ImageComponent";
 import DataComponent from "../DataComponent/DataComponent";
@@ -33,7 +34,9 @@ const PageDisplay = (args) => {
 
                 <Modal size="xl" isOpen={modal} toggle={toggle} {...args}>
                     <ModalHeader toggle={toggle}>
-                        <h4 className="modal-title">Support education by teaching kids</h4>
+                        <Typography variant="p" className="modal-title">
+                            Support education by teaching kids
+                        </Typography>
                     </ModalHeader>
                     <ModalBody>
                         <Container fluid>

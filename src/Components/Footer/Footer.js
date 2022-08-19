@@ -1,22 +1,33 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import "./Footer.css";
+import { Typography } from "@mui/material";
 
 const Footer = () => (
     <>
         <Container fluid>
             <Row>
                 <Col>
-                    <p className="footer-first-text">
+                    <Typography
+                        variant="p"
+                        className="footer-first-text">
                         Look who else is volunteering for this
-                    </p>
+                    </Typography>
                 </Col>
 
                 <Col className="footer-div">
                     <div className="bottom-circle">
-                        <h4 className="bottom-circle-text text-white">TR</h4>
+                        <Typography
+                            variant="h5"
+                            className="bottom-circle-text text-white">
+                            TR
+                        </Typography>
                     </div>
-                    <p className="footer-text">&ensp; Thara Ravi</p>
+                    <Typography
+                        variant="p"
+                        className="footer-text">
+                        &ensp; Thara Ravi
+                    </Typography>
                 </Col>
             </Row>
         </Container>

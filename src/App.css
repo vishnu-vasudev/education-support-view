@@ -21,6 +21,7 @@ body {
 .modal-title {
   color: var(--darkgrey);
   font-weight: bold;
+  font-size: 23px;
 }
 
 .modal-body {

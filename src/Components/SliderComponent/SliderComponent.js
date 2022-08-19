@@ -12,6 +12,7 @@ import {
     Col
 } from 'reactstrap'
 import SharePage from '../SharePage/SharePage'
+import { Typography } from '@mui/material'
 
 const SliderComponent = () => {
     const [nestedModal, setNestedModal] = useState(false);
@@ -27,7 +28,12 @@ const SliderComponent = () => {
                 <Row>
 
                     <Col>
-                        <h6 className='skill-header'>Volunteers Required:</h6>
+                        <Typography
+                            variant='p'
+                            className='skill-header'
+                        >
+                            Volunteers Required:
+                        </Typography>
                         <ReactSlider
                             className="horizontal-slider"
                             thumbClassName="example-thumb"
@@ -40,7 +46,12 @@ const SliderComponent = () => {
                 <Row>
 
                     <Col>
-                        <p className='skill-header'>Support education by teaching kids</p>
+                        <Typography
+                            variant='p'
+                            className='skill-header'
+                        >
+                            Support education by teaching kids
+                        </Typography>
                     </Col>
                     <Col lg>
                         <Button className='volunteer-btn'>Volunteer Now</Button>
