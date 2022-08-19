@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
-import { Container, Row, Button } from "reactstrap";
-import Typography from "@mui/material/Typography";
-import "./FoundationSection.css";
-import PackageContext from "../../Context/context";
+import React, { useContext } from 'react'
+import { Container, Row, Button } from 'reactstrap'
+import Typography from '@mui/material/Typography'
+import './FoundationSection.css'
+import PackageContext from '../../Context/context'
 
 const FoundationSection = () => {
-    const data = useContext(PackageContext)
-    return (
+  const data = useContext(PackageContext)
+  return (
         <>
 
             <Container fluid className="foundation-container">
@@ -21,11 +21,11 @@ const FoundationSection = () => {
                             </Typography>
                         </div>
                         <Typography
-                            variant='p'
-                            className="foundation"
-                        >
-                            {data.foundationName} <br />
-                        </Typography>
+                                variant='p'
+                                className="foundation"
+                            >
+                                {data.foundationName} <br />
+                            </Typography>
                     </div>
                     <div className="col new-col">
                         <Button className="follow-link" href="#">
@@ -36,7 +36,7 @@ const FoundationSection = () => {
                 </Row>
             </Container>
         </>
-    );
-};
+  )
+}
 
-export default FoundationSection;
+export default FoundationSection

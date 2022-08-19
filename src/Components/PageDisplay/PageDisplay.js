@@ -1,28 +1,28 @@
-import React, { useState } from "react";
-import "../../App.css";
+import React, { useState } from 'react'
+import '../../App.css'
 import {
-    Container,
-    Row,
-    Col,
-    Modal,
-    Button,
-    ModalBody,
-    ModalHeader,
-    ModalFooter,
-} from "reactstrap";
-import { Typography } from '@mui/material';
+  Container,
+  Row,
+  Col,
+  Modal,
+  Button,
+  ModalBody,
+  ModalHeader,
+  ModalFooter
+} from 'reactstrap'
+import { Typography } from '@mui/material'
 
-import ImageComponent from "../ImageComponent/ImageComponent";
-import DataComponent from "../DataComponent/DataComponent";
-import Footer from "../Footer/Footer";
-import Weather from "../Weather/Weather";
+import ImageComponent from '../ImageComponent/ImageComponent'
+import DataComponent from '../DataComponent/DataComponent'
+import Footer from '../Footer/Footer'
+import Weather from '../Weather/Weather'
 
 const PageDisplay = (args) => {
-    const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState(false)
 
-    const toggle = () => setModal(!modal);
+  const toggle = () => setModal(!modal)
 
-    return (
+  return (
         <>
             <Container>
                 <br />
@@ -58,7 +58,7 @@ const PageDisplay = (args) => {
                 </Modal>
             </Container>
         </>
-    );
-};
+  )
+}
 
-export default PageDisplay;
+export default PageDisplay

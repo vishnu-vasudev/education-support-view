@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Container, Row } from "reactstrap";
-import "./Footer.css";
-import { Typography } from "@mui/material";
+import React from 'react'
+import { Col, Container, Row } from 'reactstrap'
+import './Footer.css'
+import { Typography } from '@mui/material'
 
 const Footer = () => (
     <>
@@ -18,7 +18,7 @@ const Footer = () => (
                 <Col className="footer-div">
                     <div className="bottom-circle">
                         <Typography
-                            variant="h5"
+                            variant="h6"
                             className="bottom-circle-text text-white">
                             TR
                         </Typography>
@@ -32,6 +32,6 @@ const Footer = () => (
             </Row>
         </Container>
     </>
-);
+)
 
-export default Footer;
+export default Footer

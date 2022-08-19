@@ -1,6 +1,6 @@
-import React from "react";
-import { Button } from "reactstrap";
-import "./ImageComponent.css";
+import React from 'react'
+import { Button } from 'reactstrap'
+import './ImageComponent.css'
 
 const ImageComponent = () => (
     <>
@@ -13,6 +13,6 @@ const ImageComponent = () => (
         <br />
         <Button className="info-button">In-person</Button>
     </>
-);
+)
 
-export default ImageComponent;
+export default ImageComponent

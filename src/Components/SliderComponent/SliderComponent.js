@@ -2,25 +2,25 @@ import React, { useState } from 'react'
 import './SliderComponent.css'
 import ReactSlider from 'react-slider'
 import {
-    Modal,
-    ModalHeader,
-    ModalBody,
-    ModalFooter,
-    Button,
-    Container,
-    Row,
-    Col
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Button,
+  Container,
+  Row,
+  Col
 } from 'reactstrap'
 import SharePage from '../SharePage/SharePage'
 import { Typography } from '@mui/material'
 
 const SliderComponent = () => {
-    const [nestedModal, setNestedModal] = useState(false);
-    const toggleNested = () => {
-        setNestedModal(!nestedModal);
-    };
+  const [nestedModal, setNestedModal] = useState(false)
+  const toggleNested = () => {
+    setNestedModal(!nestedModal)
+  }
 
-    return (
+  return (
 
         <>
             <Container fluid>
@@ -73,7 +73,7 @@ const SliderComponent = () => {
                             <ModalFooter>
                                 <Button color="dark" onClick={toggleNested}>
                                     Cancel
-                                </Button>{' '}
+                                </Button>
                             </ModalFooter>
                         </Modal>
                     </Col>
@@ -83,7 +83,7 @@ const SliderComponent = () => {
             </Container>
         </>
 
-    )
+  )
 }
 
-export default SliderComponent;
+export default SliderComponent

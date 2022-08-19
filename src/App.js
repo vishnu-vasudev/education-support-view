@@ -1,14 +1,11 @@
-import './App.css';
-import StringsProvider from './StringsProvider/StringsProvider';
+import React from 'react'
+import './App.css'
+import StringsProvider from './StringsProvider/StringsProvider'
 
-
-function App() {
-
+function App () {
   return (
-
     <StringsProvider />
-
-  );
+  )
 }
 
-export default App;
+export default App

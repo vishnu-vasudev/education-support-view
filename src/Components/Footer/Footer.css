@@ -9,7 +9,7 @@
 
 .footer-text {
   color: var(--darkgrey);
-  margin-top: 3%;
+  padding-top: 0.7em;
   font-size: 0.875rem;
   line-height: 1.43;
   letter-spacing: 0.01071em;
@@ -26,8 +26,8 @@
 }
 
 .bottom-circle-text {
-  margin-left: 0.7em;
-  margin-top: 0.7em;
+  padding-left: 0.5em;
+  padding-top: 0.3em;
   font-size: 1.1rem;
 }
 

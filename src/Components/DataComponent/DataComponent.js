@@ -1,12 +1,12 @@
-import React from "react";
-import "./DataComponent.css";
-import DataSection from "../DataSection/DataSection";
-import FoundationSection from "../FoundationSection/FoundationSection";
-import SliderComponent from "../SliderComponent/SliderComponent";
-import { Typography } from "@mui/material";
+import React from 'react'
+import './DataComponent.css'
+import DataSection from '../DataSection/DataSection'
+import FoundationSection from '../FoundationSection/FoundationSection'
+import SliderComponent from '../SliderComponent/SliderComponent'
+import { Typography } from '@mui/material'
 
 const DataComponent = () => {
-    return (
+  return (
         <div className="text-container">
             <section>
                 <Typography
@@ -32,7 +32,7 @@ const DataComponent = () => {
                 <SliderComponent />
             </section>
         </div>
-    );
-};
+  )
+}
 
-export default DataComponent;
+export default DataComponent

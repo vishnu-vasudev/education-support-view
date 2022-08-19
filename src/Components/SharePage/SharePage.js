@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const SharePage = () => (
     <>
@@ -10,6 +10,6 @@ const SharePage = () => (
             </i>
         </a>
     </>
-);
+)
 
-export default SharePage;
+export default SharePage

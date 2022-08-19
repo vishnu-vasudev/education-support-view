@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
-import "./DataSection.css";
-import { Container, Row, Col, Button } from "reactstrap";
-import { Typography } from '@mui/material';
-import PackageContext from "../../Context/context";
+import React, { useContext } from 'react'
+import './DataSection.css'
+import { Container, Row, Col, Button } from 'reactstrap'
+import { Typography } from '@mui/material'
+import PackageContext from '../../Context/context'
 
 const DataSection = () => {
-    const data = useContext(PackageContext)
-    return (
+  const data = useContext(PackageContext)
+  return (
         <>
             <Container fluid>
                 <Row>
@@ -98,7 +98,7 @@ const DataSection = () => {
                 <hr />
             </Container>
         </>
-    )
-};
+  )
+}
 
-export default DataSection;
+export default DataSection
