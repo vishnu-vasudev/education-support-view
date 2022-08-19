@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const SharePage = () => (
     <>
-        <a
-            href="https://www.facebook.com/"
-        >
+        <a href="https://www.facebook.com/">
             <i
                 className="fa fa-facebook-square fa-5x"
                 aria-hidden="true"
@@ -12,8 +10,6 @@ const SharePage = () => (
             </i>
         </a>
     </>
-
-)
-
+);
 
 export default SharePage;

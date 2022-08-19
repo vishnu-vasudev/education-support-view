@@ -1,43 +1,42 @@
 .circle {
-    float: left;
-    width: 3.8em;
-    height: 3.8em;
-    background-color: white;
-    border: 1px solid var(--darkyellow);
-    border-radius: 50%;
-    align-items: center;
+  float: left;
+  width: 3.8em;
+  height: 3.8em;
+  background-color: white;
+  border: 1px solid var(--darkyellow);
+  border-radius: 50%;
+  align-items: center;
 }
-  
+
 .circle-text {
   color: var(--info);
   padding-left: 0.8em;
   padding-top: 0.7em;
-    
 }
-  
+
 .foundation {
-    margin-left: 0.2em;
-    margin-top: 0.3em;
-    font-size: 1rem;
-    line-height: 1.75;
-    letter-spacing: 0.00938em;
-    color: var(--darkgrey);
-    font-weight: 700;
-    padding-top: 0.7em;
-    float: left;
+  margin-left: 0.2em;
+  margin-top: 0.3em;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+  color: var(--darkgrey);
+  font-weight: 700;
+  padding-top: 0.7em;
+  float: left;
 }
 
 .foundation-container {
   padding-left: 0.5em;
   padding-right: 0.3em;
 }
-  
+
 .donate-button {
   background-color: var(--info);
   color: white;
   border: none;
-  width:6.25em;
-  height:2.5em;
+  width: 6.25em;
+  height: 2.5em;
   border-radius: 3.2em;
   font-size: 1rem;
   font-weight: 500;
@@ -45,53 +44,52 @@
   letter-spacing: 0.02857em;
   float: right;
 }
-  
+
 .follow-link {
-    color: var(--info);
-    float: right;
-    font-size: 1rem;
-    line-height: 1.75;
-    letter-spacing: 0.0338em;
-    font-weight: 700;
-    margin-left: 0.438em;
-    margin-top: 1.4em;
-    background-color: white;
-    border: none;
+  color: var(--info);
+  float: right;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.0338em;
+  font-weight: 700;
+  margin-left: 0.438em;
+  margin-top: 1.4em;
+  background-color: white;
+  border: none;
 }
 
 @media screen and (max-width: 450px) {
-    .foundation-div {
-      max-height: 3.75em;
-    }
-    .circle {
-      min-width: 3.75em;
-    }
-    .new-col {
-      padding-right: 0;
-      padding-left: 0;
-    }
-    .foundation {
-      padding-top: 0
-    }
+  .foundation-div {
+    max-height: 3.75em;
+  }
+  .circle {
+    min-width: 3.75em;
+  }
+  .new-col {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .foundation {
+    padding-top: 0;
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .new-col {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: flex-end;
-    }
-    .donate-button {
-      margin-top: 0.313em;
-      clear: both;
-    }
-    .follow-link {
-      clear: both;
-      margin-top: 0.313em;
-    }
-    .foundation-div {
-      padding: 0;
-      display: flex;
-    }
+  .new-col {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  .donate-button {
+    margin-top: 0.313em;
+    clear: both;
+  }
+  .follow-link {
+    clear: both;
+    margin-top: 0.313em;
+  }
+  .foundation-div {
+    padding: 0;
+    display: flex;
+  }
 }
-

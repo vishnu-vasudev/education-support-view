@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import PageDisplay from '../Components/PageDisplay/PageDisplay'
 import PackageContext from '../Context/context'
 
 const StringsProvider = props => {
@@ -17,9 +17,9 @@ const StringsProvider = props => {
     })
     return (
         <PackageContext.Provider
-            value={{ data: strings }}
+            value={strings }
         >
-            {props.children}
+            <PageDisplay />
         </PackageContext.Provider>
     )
 }
