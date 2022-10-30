@@ -16,13 +16,12 @@
 
 .foundation {
   padding-left: 0.3em;
-  margin-top: 0.3em;
   font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 0.00938em;
   color: var(--darkgrey);
   font-weight: 700;
-  padding-top: 0.7em;
+  padding-top: 0.9em;
   float: left;
 }
 
